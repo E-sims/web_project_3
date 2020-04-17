@@ -1,0 +1,11 @@
+@import url(./__title/intro__title.css);
+@import url(./__content-row/intro__content-row.css);
+@import url(./__text/intro__text.css);
+@import url(./__text/intro__text_bold.css);
+
+.intro {
+  width: 928px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto 82px;
+}

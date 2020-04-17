@@ -1,0 +1,10 @@
+@import url(./__lang/header__lang.css);
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 46px;
+  margin: 0 48px 47px 48px;
+  padding-top: 36px;
+}
