@@ -7,9 +7,9 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0;
   padding: 33px 128px 50px;
-  max-width: 1184px;
+  max-width: 1440px;
   align-items: center;
 }
 
