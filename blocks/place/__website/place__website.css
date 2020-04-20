@@ -1,0 +1,6 @@
+.place__website {
+  width: 456px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 15px 0 50px 0;
+}

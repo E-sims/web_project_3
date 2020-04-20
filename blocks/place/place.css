@@ -1,0 +1,19 @@
+@import url(./__title/place__title.css);
+@import url(./__section/place__section.css);
+@import url(./__image/place__image.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__website/place__website.css);
+@import url(./__url/place__url.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+  width: 928px;
+  margin: 0 auto 82px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}

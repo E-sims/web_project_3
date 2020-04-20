@@ -1,0 +1,4 @@
+.place__section {
+  display: flex;
+  flex-flow: column nowrap;
+}
