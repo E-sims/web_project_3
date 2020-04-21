@@ -5,9 +5,9 @@
 
 .lead {
   display: flex;
+  flex-flow: column nowrap;
   align-items: center;
   max-width: 984px;
-  flex-flow: column nowrap;
   margin: 0 auto 81px;
 }
 

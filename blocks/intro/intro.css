@@ -4,8 +4,50 @@
 @import url(./__text/intro__text_bold.css);
 
 .intro {
-  width: 928px;
+  max-width: 928px;
   display: flex;
   flex-flow: column nowrap;
   margin: 0 auto 82px;
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin-bottom: 71px;
+  }
+}
+
+@media screen and (min-width: 343px) and (max-width: 375px) {
+  .intro {
+    max-width: 343px;
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .intro {
+    max-width: 376px;
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin-bottom: 93px;
+  }
+}
+
+@media screen and (min-width: 928px) and (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+    margin-bottom: 102px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .intro {
+    max-width: 683px;
+    margin: 0 0 102px 11%; 
+  }
 }
