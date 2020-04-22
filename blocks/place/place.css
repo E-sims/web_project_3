@@ -7,10 +7,10 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-  width: 928px;
+  max-width: 875px;
   margin: 0 auto 82px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
