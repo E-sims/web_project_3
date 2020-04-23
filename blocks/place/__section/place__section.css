@@ -1,10 +1,5 @@
 .place__section {
   display: flex;
   flex-flow: column nowrap;
-}
-
-@media screen and (max-width: 320px) {
-  .place__section {
-    max-width: 100%;
-  }
+  max-width: 100%;
 }

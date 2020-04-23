@@ -5,5 +5,16 @@
   font-size: 18px;
   line-height: 30px;
   max-width: 456px;
-  margin: 0 0 47px 0;
+  margin: 47px 0 0 0;
+}
+
+.place__paragraph:last-of-type {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    padding: 0 16px;
+    margin-top: 24px;
+  }
 }

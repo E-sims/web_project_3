@@ -7,8 +7,10 @@
 @import url(./__subtitle/video__subtitle.css);
 
 .video {
-  width: 928px;
+  min-width: 288px;
+  max-width: 1184px;
+  display: flex;
   flex-flow: column nowrap;
   margin: 50px auto 82px;
-  justify-items: center;
+  align-items: center;
 }

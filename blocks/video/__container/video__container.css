@@ -5,3 +5,18 @@
   gap: 16px;
   max-width: 928px;
 }
+
+@media screen and (max-width: 425px) {
+  .video__container {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .video__container {
+    max-width: 720px;
+    gap: 8px;
+  }
+}

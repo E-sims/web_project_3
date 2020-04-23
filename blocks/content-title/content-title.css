@@ -1,10 +1,33 @@
 .content-title {
-  font-family: Inter;
   font-style: normal;
-  font-weight: 900;
+  font-weight: bold;
   font-size: 72px;
-  line-height: 78px;
+  line-height: 1.08;
   text-align: center;
   margin: 0 auto 37px;
   max-width: 800px;
+}
+
+@media screen and (max-width: 320px) {
+  .content-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 321px) {
+  .content-title {
+    font-size: 32px;
+    margin-bottom: 31px;
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width: 426px) and (min-width: 768px) {
+  .content-title {
+    font-size: 42px;
+    margin-bottom: 31px;
+    max-width: 720px;
+  }
 }
