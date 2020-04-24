@@ -1,5 +1,8 @@
 .video__item {
+  width: 100%;
   max-width: 100%;
   border-radius: 5px;
   position: relative;
+  overflow: hidden;
+  background-color: black;
 }

@@ -1,0 +1,5 @@
+.video__item-bg_wyoming {
+  background-image: url(../../../images/video-wyoming.jpg);
+  background-size: cover;
+  opacity: 0.5;
+}
