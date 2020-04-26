@@ -1,0 +1,6 @@
+@import url(./video__item-bg_iowa.css);
+@import url(./video__item-bg_wyoming.css);
+
+.video__item-bg {
+  background-color: black;
+}

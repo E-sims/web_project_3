@@ -9,7 +9,9 @@
   <body class="body">
     <div class="page">
       <header class="header">
-        <img class="header__logo" src="./images/logo.svg" alt="header-logo" />
+        <a href="#"
+          ><img class="header__logo" src="./images/logo.svg" alt="header-logo"
+        /></a>
         <nav class="header__nav">
           <ul class="header__list">
             <li>
@@ -24,8 +26,7 @@
       <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
         <p class="lead__subtitle">
-          An epic bicycle journey from Portland, ME.
-          to Portland, OR.
+          An epic bicycle journey from Portland, ME. to Portland, OR.
         </p>
         <img
           class="lead__image"
@@ -300,37 +301,114 @@
         </p>
         <div class="video__container">
           <div class="video__item">
-            <img
-              class="video__image"
-              src="./images/video-iowa.jpg"
-              alt="Video of Iowa"
-            />
-            <img
-              class="video__icon_play"
-              src="./images/video__icon_play.svg"
-              alt=""
-            />
-            <p class="video__duration">5:27</p>
-            <h3 class="video__title">RAGBRAI, Iowa</h3>
-            <p class="video__subtitle">Author: Ryan Van Duzer</p>
+            <img class="video__image" src="./images/video-iowa.jpg" alt="" />
+            <div class="video__controls">
+              <img
+                class="video__icon_play"
+                src="./images/video__icon_play.svg"
+                alt=""
+              />
+              <p class="video__duration">5:27</p>
+              <h3 class="video__title">RAGBRAI, Iowa<br /></h3>
+              <p class="video__subtitle">Author: Ryan Van Duzer</p>
+            </div>
           </div>
           <div class="video__item">
-            <img
-              class="video__image"
-              src="./images/video-wyoming.jpg"
-              alt="Video of Iowa"
-            />
-            <img
-              class="video__icon_play"
-              src="./images/video__icon_play.svg"
-              alt=""
-            />
-            <p class="video__duration">2:36</p>
-            <h3 class="video__title">Old Faithful Geyser, Wyoming</h3>
-            <p class="video__subtitle">Author: David Ellis</p>
+            <img class="video__image" src="./images/video-wyoming.jpg" alt="" />
+            <div class="video__controls">
+              <img
+                class="video__icon_play"
+                src="./images/video__icon_play.svg"
+                alt=""
+              />
+              <p class="video__duration">2:36</p>
+              <h3 class="video__title">Old Faithful Geyser, Wyoming</h3>
+              <p class="video__subtitle">Author: David Ellis</p>
+            </div>
           </div>
         </div>
       </section>
+      <section class="comments">
+        <h3 class="content-title">Three influential people</h3>
+        <p class="content-subtitle">
+          These 3 Americans have each impacted the world in very individual ways
+        </p>
+        <ul class="comments__container">
+          <li class="comments__container-item">
+            <img
+              src="./images/comment-beatrice-morrow-cannady.jpg"
+              alt=""
+              class="comments__image"
+            />
+            <p class="comments__quote">
+              It is the duty of the Negro woman to see that in the home there
+              are histories of her race written by Negro historians.
+            </p>
+            <p class="comments__author">
+              Beatrice Morrow Cannady, Portland, Oregon
+            </p>
+          </li>
+          <li class="comments__container-item">
+            <img
+              src="./images/comment-jane-addams.jpg"
+              alt=""
+              class="comments__image"
+            />
+            <p class="comments__quote">
+              The good we secure for ourselves is precarious and uncertain, is
+              floating in mid-air, until it is secured for all of us and
+              incorporated into our common life.
+            </p>
+            <p class="comments__author">
+              Jane Addams, Cedarville, Illinois
+            </p>
+          </li>
+          <li class="comments__container-item">
+            <img
+              src="./images/comment-stephen-king.jpg"
+              alt=""
+              class="comments__image"
+            />
+            <p class="comments__quote">
+              Books are the perfect entertainment: no commercials, no batteries,
+              hours of enjoyment for each dollar spent.
+            </p>
+            <p class="comments__author">
+              Stephen King, born in Portland, Maine
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="cover">
+        <img
+          src="./images/cover-route-66.jpg"
+          alt="Route 66 photo"
+          class="cover-bg"
+        />
+        <div class="cover__text-container">
+          <h2 class="cover__title">Historic Route 66</h2>
+          <p class="cover__subtitle">
+            The Main Street of America from Santa Monica, Cal. to Chicago, Ill.
+            within an iframe
+          </p>
+        </div>
+      </section>
+      <footer class="footer">
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Maps</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Weather</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link" href="#">Calendar</a>
+          </li>
+          <li class="footer__copyright">
+            © 2020. Eric Sims
+          </li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>

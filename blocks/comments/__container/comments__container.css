@@ -1,0 +1,22 @@
+.comments__container {
+  max-width: 925px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  list-style: none;
+  gap: 18.5px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .comments__container {
+    max-width: 1184px;
+  }
+}

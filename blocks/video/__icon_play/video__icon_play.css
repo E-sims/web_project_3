@@ -1,23 +1,23 @@
 .video__icon_play {
-  position: absolute;
-  top: 30px;
-  left: 30px;
   width: 41px;
   height: 41px;
-  z-index: 5;
+  margin: 0 0 54px 0;
 }
-
 
 @media screen and (max-width: 320px) {
   .video__icon_play {
-    top: 16px;
-    left: 16px;
+    margin: 0 0 23px 0;
   }
 }
 
 @media screen and (max-width: 425px) and (min-width: 321px) {
   .video__icon_play {
-    top: 24px;
-    left: 24px;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .video__icon_play {
+    margin: 0 0 17px 0;
   }
 }

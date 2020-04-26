@@ -1,0 +1,13 @@
+.comments__container-item {
+  max-width: 382px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container-item {
+    align-items: center;
+    margin-bottom: 46px;
+  }
+}
