@@ -2,33 +2,30 @@
   font-size: 72px;
   line-height: 1.08;
   font-weight: bold;
-  padding: 200px 0 128px 0;
-  margin: 0;
+  padding: 0;
+  margin: 0 0 13% 0;
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;
-    padding: 40px 0 22px 0;
   }
 }
 
 @media screen and (max-width: 375px) and (min-width: 321px) {
   .cover__title {
     font-size: 32px;
-    padding: 60px 0 18px 0;
   }
 }
 
 @media screen and (max-width: 425px) and (min-width: 376px) {
   .cover__title {
     font-size: 32px;
-    padding: 80px 0 28px 0;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
   .cover__title {
-    padding: 115px 0 90px 0;
+    font-size: 40px;
   }
 }

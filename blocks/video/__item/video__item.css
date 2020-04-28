@@ -3,7 +3,10 @@
   max-width: 100%;
   border-radius: 5px;
   position: relative;
-  overflow: hidden;
   display: flex;
   flex-flow: column nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

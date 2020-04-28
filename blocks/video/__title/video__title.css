@@ -4,7 +4,6 @@
   font-size: 36px;
   line-height: 1.08;
   margin: 0 0 18px;
-  flex-basis: 100%;
   max-height: 73px;
   max-width: 322px;
 }
@@ -12,6 +11,7 @@
 @media screen and (max-width: 320px) {
   .video__title {
     font-size: 24px;
+    margin-bottom: 8px;
   }
 }
 
@@ -21,8 +21,20 @@
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 730px) and (min-width: 426px) {
   .video__title {
-    font-size: 24px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 731px) {
+  .video__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 928px) and (min-width: 769px) {
+  .video__title {
+    font-size: 28px;
   }
 }

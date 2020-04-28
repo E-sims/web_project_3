@@ -1,0 +1,8 @@
+.video__link {
+  color: #ffffff;
+  transition: 0.2s ease-in-out;
+}
+
+.video__link:hover {
+  color: #ffffff85;
+}

@@ -38,7 +38,13 @@
   }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 936px) and (min-width: 769px) {
+  .comments {
+    padding: 0 2%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 937px) {
   .comments {
     max-width: 928px;
   }

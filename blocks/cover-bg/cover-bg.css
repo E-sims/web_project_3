@@ -5,6 +5,10 @@
   opacity: 0.6;
 }
 
+.cover-bg:hover {
+  transition: 4s ease-in-out;
+}
+
 @media screen and (max-width: 320px) and (min-width: 375px) {
   .cover-bg {
     max-height: 216px;
