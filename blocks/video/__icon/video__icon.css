@@ -1,6 +1,9 @@
 @import url(./_play/video__icon_play.css);
 
 .video__icon {
+  width: 41px;
+  height: 41px;
+  margin: 0 0 8% 0;
   opacity: 1;
   transition: 0.2s ease-in-out;
 }
@@ -8,4 +11,22 @@
 .video__icon:hover {
   opacity: 0.6;
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 320px) {
+  .video__icon {
+    margin: 0 0 4% 0;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 321px) {
+  .video__icon {
+    margin: 0 0 5% 0;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .video__icon {
+    margin: 0 0 17px 0;
+  }
 }

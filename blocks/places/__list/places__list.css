@@ -1,0 +1,14 @@
+.places__list {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  max-width: 928px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1280px) {
+  .places__list {
+    max-width: 986px;
+  }
+}
