@@ -1,4 +1,5 @@
 @import url(./__title/place__title.css);
+@import url(./__website/place__website.css);
 @import url(./__section/place__section.css);
 @import url(./__image/place__image.css);
 @import url(./__url-heading/place__url-heading.css);
@@ -9,9 +10,9 @@
   max-width: 928px;
   margin: 0 auto 82px;
   display: grid;
-  grid-template-columns: 47.4% 49.1%;
+  grid-template-columns: 440px 456px;
   grid-template-rows: auto;
-  gap: 3.5%;
+  gap: 32px;
 }
 
 .place:last-of-type {
