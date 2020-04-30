@@ -1,6 +1,6 @@
 @import url(./__title/place__title.css);
 @import url(./__website/place__website.css);
-@import url(./__section/place__section.css);
+@import url(./__website-item/place__website-item.css);
 @import url(./__image/place__image.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__url/place__url.css);
@@ -12,9 +12,10 @@
   margin: 0 auto 82px;
   display: grid;
   grid-template-columns: 440px 456px;
-  grid-template-rows: 80px auto;
+  grid-template-rows: auto;
   column-gap: 32px;
   row-gap: 40px;
+  box-sizing: border-box;
 }
 
 .place:last-of-type {
@@ -23,30 +24,40 @@
 
 @media screen and (max-width: 425px) {
   .place {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     margin-bottom: 59px;
     gap: 24px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 640px) {
+@media screen and (min-width: 426px) and (max-width: 730px) {
   .place {
     padding: 0 3.2%;
-    grid-template-columns: 1fr;
-    gap: 24px;
+    grid-template-columns: 100%;
   }
 }
 
-@media screen and (min-width: 641px) and (max-width: 768px) {
+@media screen and (min-width: 731px) and (max-width: 768px) {
   .place {
-    padding: 0 3.2%;
+    padding: 0;
     margin-bottom: 80px;
+    max-width: 720px;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: auto;
+    column-gap: 28px;
+    row-gap: 40px;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 927px) {
   .place {
-    padding: 0 4.5%;
+    padding: 0;
+    margin-bottom: 80px;
+    max-width: 720px;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: auto;
+    column-gap: 28px;
+    row-gap: 40px;
   }
 }
 

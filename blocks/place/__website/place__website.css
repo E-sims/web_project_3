@@ -5,4 +5,11 @@
   grid-row-end: 2;
   list-style: none;
   padding: 0;
+  align-self: end;
+}
+
+@media screen and (max-width: 730px) {
+  .place__website {
+    display: none;
+  }
 }

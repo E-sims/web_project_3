@@ -6,15 +6,10 @@
   text-decoration-line: underline;
   color: #ffffff;
   transition: opacity 0.2s ease-in-out;
-  margin: 0 0 50px 0;
+  margin: 0;
 }
 
 .place__url:hover {
   opacity: 0.6;
 }
 
-@media screen and (max-width: 425px) {
-  .place__url {
-    display: none;
-  }
-}
