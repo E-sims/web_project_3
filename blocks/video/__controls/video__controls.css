@@ -9,6 +9,13 @@
   top: 0;
   left: 0;
   padding: 10% 22% 12% 6.5%;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0);
+  transition: .2s ease-in-out;
+}
+
+.video__controls:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 320px) {
