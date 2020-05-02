@@ -1,40 +1,33 @@
 .video__title {
   font-style: normal;
   font-weight: 900;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.08;
-  margin: 0 0 18px;
-  max-height: 73px;
-  max-width: 322px;
+  margin: 8px 0 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 425px) {
   .video__title {
-    font-size: 24px;
-    margin-bottom: 8px;
+    margin: 12px 0 0;
   }
 }
 
-@media screen and (max-width: 425px) and (min-width: 321px) {
+@media screen and (min-width: 768px) {
   .video__title {
-    font-size: 24px;
+    margin: 0;
+    line-height: 1;
   }
 }
 
-@media screen and (max-width: 730px) and (min-width: 426px) {
+@media screen and (min-width: 1024px) {
   .video__title {
-    font-size: 32px;
+    margin: 12px 0 auto;
+    font-size: 36px;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 731px) {
+@media screen and (min-width: 1280px) {
   .video__title {
-    font-size: 26px;
-  }
-}
-
-@media screen and (max-width: 928px) and (min-width: 769px) {
-  .video__title {
-    font-size: 28px;
+    margin: 12px 0 auto;
   }
 }

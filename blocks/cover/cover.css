@@ -7,6 +7,7 @@
   overflow: hidden;
   margin: 0 auto 126px;
   position: relative;
+  transition: 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 425px) {

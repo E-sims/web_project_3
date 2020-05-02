@@ -1,9 +1,49 @@
 .cover__text-container {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   width: 100%;
   text-align: center;
   top: 0;
   left: 0;
   box-sizing: border-box;
-  padding-top: 17%;
+  padding: 64px 16px 24px;
+  background: rgba(0, 0, 0, 0);
+  transition: 0.2s ease-in-out;
+}
+
+.cover__text-container:hover {
+  background: rgba(0, 0, 0, 0.575);
+}
+
+@media screen and (min-width: 375px) {
+  .cover__text-container {
+    padding-top: 104px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .cover__text-container {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover__text-container {
+    padding: 165px 24px 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__text-container {
+    padding: 240px 48px 34px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__text-container {
+    padding: 274px 48px 48px;
+  }
 }

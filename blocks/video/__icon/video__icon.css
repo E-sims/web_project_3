@@ -1,9 +1,7 @@
-@import url(./_play/video__icon_play.css);
-
 .video__icon {
   width: 41px;
   height: 41px;
-  margin: 0 0 8% 0;
+  margin: 0;
   transition: 0.2s ease-in-out;
 }
 
@@ -11,20 +9,30 @@
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 375px) {
   .video__icon {
-    margin: 0 0 4% 0;
+    margin: 0 0 23px;
   }
 }
 
-@media screen and (max-width: 425px) and (min-width: 321px) {
+@media screen and (min-width: 425px) {
   .video__icon {
-    margin: 0 0 5% 0;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (min-width: 768px) {
   .video__icon {
-    margin: 0 0 17px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .video__icon {
+    margin: 0 0 54px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video__icon {
+    margin: 0 0 94px;
   }
 }

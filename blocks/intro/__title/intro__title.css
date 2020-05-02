@@ -1,46 +1,43 @@
 .intro__title {
-  max-width: 683px;
-  font-weight: bold;
-  font-size: 54px;
+  font-weight: 900;
+  font-size: 32px;
   line-height: 1.09;
-  margin: 0 0 45px 0;
+  margin: 0 0 34px 0;
   padding: 0;
 }
 
-@media screen and (max-width: 375px) {
-  .intro__title {
-    max-width: 288px;
-    font-size: 32px;
-    margin-bottom: 34px;
-  }
-}
-
-@media screen and (min-width: 343px) and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   .intro__title {
     max-width: 343px;
-    font-size: 32px;
-    margin-bottom: 34px;
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media screen and (min-width: 425px) {
   .intro__title {
-    max-width: 343px;
-    font-size: 32px;
-    margin-bottom: 34px;
+    max-width: 92%;
   }
 }
 
-@media screen and (min-width: 928px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .intro__title {
-    max-width: 785px;
+    max-width: 720px;
+    font-size: 54px;
+    margin-bottom: 46px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__title {
+    max-width: 928px;
+    font-size: 54px;
     margin-bottom: 38px;
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .intro__title {
     max-width: 683px;
-    margin-bottom: 38px;
+    font-size: 54px;
+    margin-bottom: 45px;
   }
 }
