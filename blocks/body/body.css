@@ -2,9 +2,9 @@
   background-color: #2a2c2f;
   color: #ffffff;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  width: 100vw;
   height: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  box-sizing: border-box;
 }

@@ -1,31 +1,13 @@
 .footer__copyright {
   font-size: 14px;
   line-height: 1.42;
-  align-self: center;
-  margin-left: auto;
-  margin: 0;
+  margin: 16px 0 0;
   padding: 0;
 }
 
-@media screen and (max-width: 425px) {
-  .footer__copyright {
-    margin: 3px 0 0 0;
-    padding-left: 16px;
-    align-self: flex-start;
-  }
-}
-
-@media screen and (max-width: 600px) and (min-width: 426px) {
-  .footer__copyright {
-    margin: 3px 0 0 0;
-    padding-left: 16px;
-    align-self: flex-start;
-  }
-}
-
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 768px) {
   .footer__copyright {
     align-self: center;
-    margin-left: auto;
+    margin: 0 0 0 auto;
   }
 }

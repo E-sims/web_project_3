@@ -1,45 +1,61 @@
 @import url(./__title/intro__title.css);
 @import url(./__content-row/intro__content-row.css);
-@import url(./__facts/intro__facts.css);
 @import url(./__text/intro__text.css);
-@import url(./__text/_bold/intro__text_bold.css);
+@import url(./__facts/intro__facts.css);
+@import url(./__facts-text/intro__facts-text.css);
+@import url(./__facts-text/_bold/intro__facts-text_bold.css);
 
 .intro {
   max-width: 288px;
   display: flex;
   flex-flow: column nowrap;
-  margin: 0 auto 71px;
+  margin: 0 0 71px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 375px) {
   .intro {
     max-width: 343px;
+    margin-bottom: 72px;
   }
 }
 
 @media screen and (min-width: 425px) {
   .intro {
-    max-width: 90%;
+    max-width: 382px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .intro {
     max-width: 720px;
-    margin: 0 auto 93px;
+    margin-bottom: 93px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro {
     max-width: 928px;
-    margin: 0 auto 102px;
+    margin-bottom: 102px;
+    align-self: flex-start;
+    margin-left: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
-    max-width: 984px;
-    margin: 0 auto 82px;
+    max-width: 683px;
+    margin-bottom: 82px;
+    margin-left: 148px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .intro {
+    max-width: 683px;
+    margin-bottom: 82px;
+    margin-left: 228px;
   }
 }

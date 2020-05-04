@@ -7,27 +7,24 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  max-width: 984px;
-  margin: 0 auto 81px;
+  max-width: 100%;
+  margin: 0 auto 64px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .lead {
-    max-width: 928px;
-    margin: 0 auto 76px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead {
-    max-width: 768px;
     margin: 0 auto 80px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 1024px) {
   .lead {
-    max-width: 375px;
-    margin: 0 auto 64px;
+    margin: 0 auto 76px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    margin: 0 auto 81px;
   }
 }

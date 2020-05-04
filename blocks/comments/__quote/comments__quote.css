@@ -1,13 +1,15 @@
 .comments__quote {
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 16px;
+  line-height: 1.43;
   margin: 0;
+  order: 3;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) {
   .comments__quote {
-    order: 3;
     margin-bottom: 15px;
-    text-align: center;
+    font-size: 14px;
+    line-height: 1.71;
+    order: 0;
   }
 }

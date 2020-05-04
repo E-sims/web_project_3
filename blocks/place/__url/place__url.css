@@ -2,14 +2,14 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.66;
   text-decoration-line: underline;
   color: #ffffff;
   transition: opacity 0.2s ease-in-out;
   margin: 0;
+  padding: 0;
 }
 
 .place__url:hover {
   opacity: 0.6;
 }
-

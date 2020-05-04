@@ -5,53 +5,43 @@
 @import url(./__author/comments__author.css);
 
 .comments {
-  margin: 0 auto 84px;
-  max-width: 928px;
+  margin: 0 auto 64px;
+  max-width: 288px;
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
 }
 
-@media screen and (max-width: 320px) {
-  .comments {
-    max-width: 288px;
-    margin-bottom: 64px;
-  }
-}
-
-@media screen and (max-width: 375px) and (min-width: 425px) {
+@media screen and (min-width: 375px) {
   .comments {
     max-width: 343px;
     margin-bottom: 49px;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (min-width: 425px) {
   .comments {
-    max-width: 660px;
+    max-width: 382px;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (min-width: 768px) {
   .comments {
     max-width: 660px;
     margin-bottom: 100px;
   }
 }
 
-@media screen and (max-width: 936px) and (min-width: 769px) {
-  .comments {
-    padding: 0 2%;
-  }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 937px) {
+@media screen and (min-width: 1024px) {
   .comments {
     max-width: 928px;
+    margin-bottom: 84px;
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .comments {
     max-width: 1184px;
+    margin-bottom: 103px;
   }
 }

@@ -4,38 +4,47 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-  max-width: 928px;
-  margin: 0 auto 49px;
+  max-width: 320px;
+  margin: 0 auto 22px;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
+  padding: 0 0 0 16px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 375px) {
   .footer {
+    max-width: 343px;
     margin-bottom: 22px;
-    flex-direction: column;
-    max-width: 424px;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 426px) {
+@media screen and (min-width: 425px) {
   .footer {
-    flex-direction: column;
-    margin-bottom: 24px;
-    max-width: 500px;
+    max-width: 382px;
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 601px) {
+@media screen and (min-width: 768px) {
   .footer {
-    margin-bottom: 24px;
-    max-width: 100%;
-    padding: 0 5%;
+    margin: 0 auto 24px;
+    max-width: 722px;
+    flex-flow: row nowrap;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    max-width: 928px;
+    flex-flow: row nowrap;
+    margin-bottom: 49px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
     max-width: 1184px;
+    flex-flow: row nowrap;
+    margin-bottom: 48px;
   }
 }

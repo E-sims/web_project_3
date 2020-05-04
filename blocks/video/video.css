@@ -10,10 +10,43 @@
 @import url(./__link/video__link.css);
 
 .video {
-  min-width: 288px;
-  max-width: 1184px;
+  max-width: 288px;
   display: flex;
   flex-flow: column nowrap;
-  margin: 0 auto 82px;
+  margin: 0 auto 76px;
   align-items: center;
+}
+
+@media screen and (min-width: 375px) {
+  .video {
+    max-width: 343px;
+    margin-bottom: 77px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .video {
+    max-width: 382px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .video {
+    max-width: 720px;
+    margin-bottom: 116px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .video {
+    max-width: 928px;
+    margin-bottom: 82px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video {
+    max-width: 1184px;
+    margin-bottom: 102px;
+  }
 }

@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 425px) {
   .intro__content-row {
-    max-width: 75%;
+    max-width: 382px;
     margin-bottom: 37px;
   }
 }
@@ -24,7 +24,7 @@
 @media screen and (min-width: 768px) {
   .intro__content-row {
     max-width: 720px;
-    margin-bottom: 46px;
+    margin-bottom: 37px;
   }
 }
 

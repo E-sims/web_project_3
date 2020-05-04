@@ -1,3 +1,24 @@
 .place__description {
-  max-width: 100%;
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+  .place__description {
+    max-width: 343px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .place__description {
+    max-width: 382px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__description {
+    max-width: 100%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
 }

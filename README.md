@@ -6,7 +6,9 @@
 
 - HTML
 - CSS
-- Responsive Layout
+- Flexbox
+- CSS Grid
+- Media Queries
 
 **Objective**
 

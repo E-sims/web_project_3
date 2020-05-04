@@ -1,5 +1,32 @@
 .intro__facts {
   padding: 0;
-  margin: 24px 0 0 0;
-  max-width: 383px;
+  margin: 0;
+  max-width: 288px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 375px) {
+  .intro__facts {
+    max-width: 343px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .intro__facts {
+    max-width: 382px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro__facts {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__facts {
+    max-width: 383px;
+  }
 }

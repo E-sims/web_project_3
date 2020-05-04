@@ -1,13 +1,17 @@
 .comments__author {
   font-size: 14px;
   line-height: 1.71;
-  font-weight: bold;
-  margin: 15px 0 0 0;
+  font-weight: 900;
+  margin: 0 0 24px;
+  text-align: center;
+  padding: 0 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) {
   .comments__author {
-    margin-bottom: 15px;
-    text-align: center;
+    margin: 0;
+    line-height: 1.57;
+    text-align: start;
+    padding: 0;
   }
 }

@@ -1,12 +1,19 @@
 .comments__image {
   border-radius: 50%;
-  margin: 0 0 28px 0;
+  margin: 0 0 15px 0;
   height: 100px;
   width: 100px;
+  object-fit: cover;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 1024px) {
   .comments__image {
-    margin-bottom: 15px;
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .comments__image {
+    margin-bottom: 40px;
   }
 }

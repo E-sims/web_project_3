@@ -8,25 +8,42 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 33px 128px 50px;
-  max-width: 1440px;
+  padding: 21px 0 48px;
+  max-width: 288px;
   align-items: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 375px) {
   .header {
-    padding: 36px 48px 47px;
+    max-width: 343px;
+    padding: 18px 0 51px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) {
   .header {
-    padding: 36px 24px 48px;
+    max-width: 90%;
+    padding: 18px 0 51px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) {
   .header {
-    padding: 18px 16px 51px 16px;
+    max-width: 720px;
+    padding: 35px 0 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    max-width: 928px;
+    padding: 36px 0 47px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+    padding: 36px 0 47px;
   }
 }
