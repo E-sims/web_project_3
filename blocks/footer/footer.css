@@ -9,6 +9,9 @@
   display: flex;
   flex-flow: column nowrap;
   padding: 0 0 0 16px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 @media screen and (min-width: 375px) {
@@ -37,7 +40,7 @@
   .footer {
     max-width: 928px;
     flex-flow: row nowrap;
-    margin-bottom: 49px;
+    padding: 0 48px 49px 89px;
   }
 }
 
@@ -45,6 +48,7 @@
   .footer {
     max-width: 1184px;
     flex-flow: row nowrap;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
+    padding: 0;
   }
 }
