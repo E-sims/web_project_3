@@ -21,13 +21,3 @@
     margin: 12px 0 0;
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .video__subtitle {
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .video__subtitle {
-  }
-}
